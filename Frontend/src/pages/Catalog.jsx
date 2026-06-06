@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.jsx';
 
 const WA_NUMBER = '91XXXXXXXXXX';
 const CATEGORIES = ['All', 'Rings', 'Necklaces', 'Earrings', 'Bangles', 'Pendants'];

@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.jsx';
 
 const API = import.meta.env.VITE_API_URL;
 const CATEGORIES = ['Rings', 'Necklaces', 'Earrings', 'Bangles', 'Pendants'];
